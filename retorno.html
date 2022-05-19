@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retorno de Ligação</title>
+    <link rel="stylesheet" href="css/retorno.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="sec-form">
+        <form class="app-form">
+            <div class="header-ligacao"> 
+                Solicitar Retorno
+            </div>
+            <div class="form-group">
+                <input autocomplete="off" required type="text" name="nome" id="nome" required="required">
+                <span>Nome *</span>
+            </div>
+            <div class="form-group">
+                <input autocomplete="off" required type="number" name="telefone" id="telefone" pattern="[0-9]+$">
+                <span>CNPJ / CPF *</span>
+            </div>
+            <div class="form-group">
+                <input autocomplete="off" required type="number" name="telefone" id="telefone" pattern="[0-9]+$">
+                <span>Telefone *</span>
+            </div>
+            <div class="form-group" required>
+                    <select class="setor" required placeholder="Setor">
+                    <option value="" disabled="disabled" selected="selected" class="setorcor">Selecione um setor:</option>
+                    <option value="#">Financeiro</option>
+                    <option value="#">Suporte Técnico</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <textarea autocomplete="off" required rows="10"></textarea>
+                <span>Como podemos ajudar?</span>
+            </div>
+            <button> Enviar </button>
+        </form>       
+    </section>
+</body>
+</html>
