@@ -22,8 +22,25 @@ html {
 }
 
 
-/**************************** TOP ****************************/
+/**************************** HOME- > ****************************/
+.botton-home {
+    display: flex;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-gray-color);
+    background: var(--primary-color);
+    border-radius: 50%;
+    transform: rotate(-90deg);
+    border: 0.1rem solid var(--light-gray-color);
+    z-index: 2;
+}
 
+/**************************** TOP ****************************/
 .container-top{
     display: flex;
     width: 100%;
@@ -137,17 +154,18 @@ html {
 
 .grid-content-ul {
     font-size: 1.8rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 3rem;
+    margin: 2rem;
+
 }
 
 .grid-content-ul > ul {
     font-size: 1.7rem;
     margin-left: 6rem;
     margin-top: 5rem;
+}
+
+.grid-content-ul > ul > li {
+    margin: 1rem;
 }
 
 .button-content {
@@ -181,6 +199,7 @@ html {
 .button-content-btn:hover{
     background-color: var(--background-boarder);
     color: white;
+    height: 50px;
 }
 
 .img-financial {
@@ -270,18 +289,18 @@ html {
 
 .boarder-content > p {
     margin-top: 3rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.836);
 }
 
 .boarder-content > ul > li {
     list-style: none;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: rgba(255, 255, 255, 0.836);
 }
 
 .boarder-content > a {
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: rgba(255, 255, 255, 0.836);
     margin: 0;
 }
