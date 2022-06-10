@@ -12,6 +12,7 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    text-decoration: none;
 }
 
 * {
@@ -19,6 +20,7 @@ html {
     padding: 0;
     box-sizing: 0;
     font-family: 'Questrial', sans-serif;
+    text-decoration: none;
 }
 
 
@@ -26,18 +28,19 @@ html {
 .botton-home {
     display: flex;
     position: fixed;
+    font-size: 2rem;
     right: 2rem;
     bottom: 2rem;
     width: 5rem;
     height: 5rem;
     justify-content: center;
     align-items: center;
-    color: var(--light-gray-color);
-    background: var(--primary-color);
+    color: var(--color-white);
+    background: var(--text-red);
     border-radius: 50%;
     transform: rotate(-90deg);
-    border: 0.1rem solid var(--light-gray-color);
-    z-index: 2;
+    border: 0.1rem solid var(--background-boarder);
+    z-index: 1;
 }
 
 /**************************** TOP ****************************/
