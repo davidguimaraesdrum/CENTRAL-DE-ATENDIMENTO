@@ -452,3 +452,14 @@ html {
         text-decoration: none;
     }    
 }
+
+.footer {
+    background: var(--background-boarder);
+    text-align: center;
+    font-size: 0.7rem;
+    height: 1.3rem;
+}
+
+.footer a {
+    color: var(--background-all);
+}
