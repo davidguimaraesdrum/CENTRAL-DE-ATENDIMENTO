@@ -1,3 +1,4 @@
+// ========================== SLIDES ==========================
 let slideIndex = 0;
         showSlides();
         
@@ -17,3 +18,5 @@ let slideIndex = 0;
         dots[slideIndex-1].className += " active";
           setTimeout(showSlides, 4000); // Change image every 2 seconds
         }
+
+// ========================== DISABLE BOTÕES ==========================

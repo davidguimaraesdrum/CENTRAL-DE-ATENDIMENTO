@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Central de Atendimento</title>
+
     <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+    <script src="./js/scripts.js" defer></script>
+
 </head>
 <body>
 
@@ -71,16 +75,11 @@
                 <p> Selecione uma opção: </p>
                 <a href="#" class="modal-close">&times;</a>
                     <div class="menu-modal">
-                        <a href="https://calendly.com/tdpsistemas/1h30min?month=2022-05&back=1" class="btn-menu-modal" target="_blank"> Agendar Treinamento 
-                        </a>
                         <a href="https://servidorseguro.mysuite.com.br/client/login.php?sl=tdp&h=19983e8fb5a529222bb8acfc6ede2f49&inf=&lf=" class="btn-menu-modal" target="_blank"> Chat Online 
-                            <p class="subtexto"> segunda a sexta:  08:00 - 18:00 </p>
-                            <p class="subtexto"> sábados:  08:00 - 12:000 </p>
                         </a>
-                        <a href="https://api.whatsapp.com/message/5P5A22U42CHNB1?autoload=1&app_absent=0" class="btn-menu-modal" target="_blank"> Plantão Emergêncial 
-                            <p class="subtexto"> segunda a sexta:  18:00 - 22:00 </p>
-                            <p class="subtexto"> sábados:  13:00 - 22:00 </p>
-                            <p class="subtexto"> domingos e feriados:  08:00 - 22:00 </p>
+                        <a href="https://api.whatsapp.com/message/5P5A22U42CHNB1?autoload=1&app_absent=0" id="plantao" class="btn-menu-modal" target="_blank"> Plantão Emergêncial 
+                        </a>
+                        <a href="https://calendly.com/tdpsistemas/1h30min?month=2022-05&back=1" class="btn-menu-modal" target="_blank"> Agendar Treinamento 
                         </a>
                         <!-- <a href="retorno.html" class="btn-menu-modal" target="_blank"> Ligamos para você! </a> -->
                     </div>
@@ -221,28 +220,6 @@
             <span class="dot"></span> 
             <span class="dot"></span> 
         </div>
-        
-        <script>
-        let slideIndex = 0;
-        showSlides();
-        
-        function showSlides() {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("dot");
-            for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-        }
-        slideIndex++;
-            if (slideIndex > slides.length) {slideIndex = 1}    
-            for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-          setTimeout(showSlides, 4000); // Change image every 2 seconds
-        }
-        </script>
 
     <!-- ============================= BASEBOARD ============================= -->
 

@@ -398,6 +398,8 @@ html {
 }
 
 .btn-menu-modal{
+    
+    width: 30;
     font-size: 2rem;
     border-radius: 15px 0 15px 0px;
     color: var(--color-white);
@@ -405,6 +407,10 @@ html {
     transition: 0.3s;
     padding: 10px 30px;
     text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
 }
 
 .btn-menu-modal:hover{
