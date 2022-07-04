@@ -464,6 +464,13 @@ html {
     color: var(--text-grey);
 }
 
+/**************************** TEXTO MODAL ****************************/
+
+.subtexto {
+    font-size: 1rem;
+    margin: 0.2rem;
+}
+
 /**************************** SLIDE ****************************/
 
 .mySlides {display: none;}
