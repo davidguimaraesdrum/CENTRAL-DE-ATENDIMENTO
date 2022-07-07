@@ -29,8 +29,8 @@ html {
 .botton-home {
     display: flex;
     position: fixed;
-    font-size: 1.5rem;
-    right: 1.5rem;
+    font-size: 1.0rem;
+    right: 2rem;
     bottom: 1.5rem;
     width: 4rem;
     height: 4rem;
@@ -414,7 +414,6 @@ html {
 }
 
 .btn-menu-modal{
-    
     width: 30;
     font-size: 2rem;
     border-radius: 15px 0 15px 0px;
@@ -509,7 +508,7 @@ margin: auto;
 .text {
 color: #f2f2f2;
 font-size: 15px;
-padding: 8px 12px;
+
 position: absolute;
 bottom: 8px;
 width: 100%;
