@@ -17,7 +17,7 @@ let slideIndex = 0;
         }
         slides[slideIndex-1].style.display = "block";  
         dots[slideIndex-1].className += " active";
-          setTimeout(showSlides, 4000); // Change image every 2 seconds
+          setTimeout(showSlides, 6000); // Change image every 2 seconds
         }
 
 // ========================== DISABLE BOTÕES ========================== //
