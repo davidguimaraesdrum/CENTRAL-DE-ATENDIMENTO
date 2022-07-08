@@ -21,6 +21,7 @@ let slideIndex = 0;
         }
 
 // ========================== DISABLE BOTÕES ========================== //
+
 const now = new Date(); //Método javascript para trabalhar com datas
 let holyday = false; //Variável para dias que forem feriado (padrão sempre é false)
 
